@@ -1,0 +1,62 @@
+:root {
+    --white-color: #fff;
+    --opasity-wite-color: #d7ccc0;
+    --light-color: #f5f4f0;
+    --basic-color: #fe8a02;
+    --basic-dark-color: #42413c;
+    --dark-color: #2a2626;
+    --opasity-dark: #908d8b;
+    --brown: #b09a81;
+    --blue: #1085c5;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Open Sans";
+    src: url("./Fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+  }
+  
+  @font-face {
+    font-weight: 700;
+    font-family: "Open Sans";
+    src: url("./Fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf");
+  }
+  
+  @font-face {
+    font-weight: 400;
+    font-family: "Neucha";
+    src: url("./Fonts/Neucha/Neucha-Regular.ttf");
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #2A2626;
+    line-height: 1.6em;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Neucha", sans-serif;
+    line-height: 1.2em;
+  }
+  
+  h1 {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 34px;
+  }
+
+  .into-section {
+    max-width: 1110px;
+    text-align: center;
+    padding: 100px 0;
+  }
