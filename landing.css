@@ -57,6 +57,70 @@
 
   .into-section {
     max-width: 1110px;
-    text-align: center;
+    margin: 0 auto;
     padding: 100px 0;
+  }
+
+  .background-image::before {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.1;
+
+    content: '';
+  }
+
+  .position-relative {
+    position: relative;
+  }
+
+  .position-absolute {
+    position: absolute;
+  }
+
+  .header-image {
+    height: 525px;
+    top: 55px;
+    right: -270px;
+
+    z-index: 1;
+
+    overflow: hidden;
+  }
+
+  .column-2 {
+    column-count: 2;
+    column-gap: 30px;
+  }
+
+  .column-2 p {
+    margin-top: 0;
+  }
+
+  .orange {
+    color: var(--basic-color);
+  }
+
+  .break-after {
+    break-after: column;
+  }
+
+  .bottom {
+    background-color: var(--basic-color);
+    display: inline-block;
+    padding: 12px 24px;
+  }
+
+  .bottom a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 700;
   }
