@@ -1,0 +1,42 @@
+.header-image {
+    height: 525px;
+    top: 55px;
+    right: -270px;
+
+    /* overflow: hidden; */
+  }
+
+  header article {
+    margin-top: 200px;
+  }
+
+  .column-2 {
+    column-count: 2;
+    column-gap: 30px;
+  }
+
+  .column-2 p {
+    margin-top: 0;
+  }
+
+  .break-after {
+    break-after: column;
+  }
+
+  .header-bottom {
+    box-sizing: border-box;
+    background-color: var(--basic-color);
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 20px;
+  }
+
+  .header-bottom a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 700;
+    display: block;
+    height: 100%;
+
+    /* display: inline-block; */
+  }
