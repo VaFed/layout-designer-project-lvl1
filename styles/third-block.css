@@ -1,0 +1,41 @@
+.block-three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-three span {
+    font-size: 52px;
+}
+
+.block-three-section-top {
+    max-width: 350px;
+    max-height: 323px;
+    margin-bottom: 15px;
+}
+
+.block-three-section-bottom {
+    max-width: 350px;
+    max-height: 348px;
+}
+
+.block-three h2,
+.block-three h3,
+.block-three p {
+    margin-left: 24px;
+    font-weight: 400;
+}
+
+.block-three div:nth-child(1) h3 {
+    margin-top: 0px;
+    margin-left: 0px;
+    line-height: 62px;
+}
+
+.block-three h2 {
+    margin-top: 24px;
+}
+
+.block-three h3 {
+    color: var(--basic-color);
+}
