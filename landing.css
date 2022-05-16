@@ -3,8 +3,9 @@
   --opasity-white-color: #d7ccc0;
   --light-color: #f5f4f0;
   --basic-color: #fe8a02;
+  /* primary dark */
   --basic-dark-color: #42413c;
-  --dark-color: #2a2626;
+  --dark-color: #2a2626; 
   --opasity-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
@@ -19,7 +20,7 @@
 }
 
 .gray{
-  background-color: var(--dark-color);
+  background-color: var(--basic-dark-color);
 }
 
 .orange {
@@ -28,6 +29,10 @@
 
 .header-color {
   background-color: var(--light-color);
+}
+
+.else-color-back {
+  background-color: #b09a81;
 }
 
 @font-face {
@@ -105,6 +110,66 @@ h3 {
 
   width: 1440px;
   height: 914px;
+
+  background-image: url(./images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: '';
+}
+
+.background-image2::before {
+  position: absolute;
+
+  /* left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; */
+
+  width: 1440px;
+  height: 855px;
+
+  background-image: url(./images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: '';
+}
+
+.background-image3::before {
+  position: absolute;
+
+  /* left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; */
+
+  width: 1440px;
+  height: 880px;
+
+  background-image: url(./images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: '';
+}
+
+.background-image4::before {
+  position: absolute;
+
+  /* left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; */
+
+  width: 1440px;
+  height: 919px;
 
   background-image: url(./images/background.png);
   background-repeat: no-repeat;

@@ -1,17 +1,24 @@
+.height {
+    /* box-sizing: border-box; */
+    height: 814px;
+}
+
 .block-two {
     background-color: var(--white-color);
-    margin-top: 98px;
+    /* margin-top: 98px; */
+    padding-top: 111px;
 }
 
 .block-two p {
     text-align: center;
     margin-top: 28px;
     margin-bottom: 0;
+
 }
 
 .iframe-container-container {
     width: 919px; 
-    height: 489px;
+    height: 469px;
 }
 
 .block-two .iframe-container {
@@ -21,8 +28,8 @@
     overflow: hidden;
     width: 919px; 
     height: 569px;
-    top: 227px;
-    left: 216px;
+    top: 339px;
+    left: 260px;
 
     /* display: inline-block;
     vertical-align: top;

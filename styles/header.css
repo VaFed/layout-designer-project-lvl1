@@ -3,7 +3,14 @@
     top: 55px;
     right: -270px;
 
+    z-index: 0;
+
     /* overflow: hidden; */
+}
+
+header h1 {
+    position: relative;
+    z-index: 10;
 }
 
 header article {
@@ -15,6 +22,11 @@ header article {
     column-gap: 30px;
 }
 
+.column-2else {
+    column-count: 2;
+    column-gap: 20px;
+}
+
 .column-2 p {
     margin-top: 0;
 }
@@ -23,20 +35,20 @@ header article {
     break-after: column;
 }
 
-.header-bottom {
-    box-sizing: border-box;
+.button {
+    color: var(--white-color);
+    border: none;
     background-color: var(--basic-color);
-    display: inline-block;
     padding: 12px 24px;
-    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
-.header-bottom a {
-    text-decoration: none;
-    color: var(--white-color);
-    font-weight: 700;
-    display: block;
-    height: 100%;
+.button:hover {
+    background-color: #EA7600;
 
-    /* display: inline-block; */
 }
