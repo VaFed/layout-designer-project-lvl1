@@ -67,12 +67,28 @@
     top: 0;
     bottom: 0;
     right: -70px;
+
+    width: 70px;
     
     background-color: #FE8A02;
-    background-image: url(./images/);
     
     border: 1px solid;
     
+}
+
+.footer-feedback button::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* left: 0; */
+    right: 0;
+    left: 0;
+    
+    background-image: url(./images/send.svg);
+    /* background-repeat: no-repeat;
+    background-size: y; */
+
+    /* z-index: 10; */
 }
 
 footer .into-section>p {
