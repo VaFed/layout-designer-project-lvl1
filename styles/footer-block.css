@@ -15,7 +15,16 @@
 
 .footer-feedback h3 {
     margin-top: 56px;
-    /* margin-right: 90px; */
+    margin-right: 60px;
+    /* margin: 56px auto 0 auto; */
+    margin-left: 13px;
+    letter-spacing: 0.1px;
+
+}
+
+.footer-feedback_feedback {
+    margin-right: 75px;
+    /* margin: 0 auto; */
 }
 
 .footer-feedback_feedback p:nth-child(1) {
@@ -40,7 +49,7 @@
     font-size: 12px;
 }
 
-.footer-feedback_feedback a {
+.footer-feedback>.footer-feedback_feedback>p>a {
     color: #fff;
 }
 
@@ -54,12 +63,19 @@
     width: 423px;
     height: 52px;
     
-    border: 1px solid;
-    padding: 0 1.5em;
+    /* border: 1px solid; */
+    padding: 0 12px;
 }
 
 .footer-feedback input::placeholder {
     opacity: 0.2;
+    letter-spacing: 0.3px;
+    color: #757575;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.1px;
+    line-height: 160%;
 }
   
 .footer-feedback button {
@@ -80,15 +96,17 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    /* left: 0; */
     right: 0;
     left: 0;
-    
-    background-image: url(./images/send.svg);
-    /* background-repeat: no-repeat;
-    background-size: y; */
 
-    /* z-index: 10; */
+    /* height: 50px;
+    width: 70px; */
+    
+    background-image: url(../images/send.svg);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+
+    content: '';
 }
 
 footer .into-section>p {
