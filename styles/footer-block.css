@@ -50,7 +50,7 @@
 }
 
 .footer-feedback>.footer-feedback_feedback>p>a {
-    color: #fff;
+    color: #fff !important;
 }
 
 .footer-feedback form {
@@ -69,7 +69,7 @@
 
 .footer-feedback input::placeholder {
     opacity: 0.2;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.005px;
     color: #757575;
     font-family: 'Open Sans';
     font-style: normal;
@@ -82,14 +82,13 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    right: -70px;
+    right: -64px;
 
-    width: 70px;
+    width: 65px;
     
     background-color: #FE8A02;
-    
-    border: 1px solid;
-    
+
+    border: none;
 }
 
 .footer-feedback button::before {
@@ -104,6 +103,7 @@
     
     background-image: url(../images/send.svg);
     background-repeat: no-repeat;
+    background-position: center;
     /* background-size: contain; */
 
     content: '';
