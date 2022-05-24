@@ -263,12 +263,12 @@ header article {
 .block-two {
   background-color: var(--white-color);
   /* margin-top: 98px; */
-  padding-top: 111px;
+  padding-top: 102px;
 }
 
 .block-two p {
   text-align: center;
-  margin-top: 29px;
+  margin-top: 34px;
   margin-bottom: 0;
   /* margin-left: 40px; */
   font-weight: 400;
