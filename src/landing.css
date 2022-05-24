@@ -59,6 +59,10 @@ body {
   color: #2A2626;
   line-height: 1.6em;
   margin: 0;
+
+  overflow-x: hidden;
+  width: 1440px !important;
+  margin: 0 auto;
 }
   
 h1,
