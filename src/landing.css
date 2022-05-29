@@ -259,14 +259,14 @@ header article {
   /* box-sizing: border-box; */
   /* height: 814px; */
 
-  height: 615px;
+  height: 606px;
 }
 
 .block-two {
   /* background-color: var(--white-color); */
   /* margin-top: 98px; */
   /* padding-top: 102px; */
-  padding-top: 9px;
+  /* padding-top: 9px; */
 }
 
 .block-two p {
