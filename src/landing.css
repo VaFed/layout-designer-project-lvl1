@@ -28,7 +28,10 @@
 }
 
 .orange_padding{
-  padding: 6px 0 0 0;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2px;
+  line-height: 62px;
 }
 
 .header-color {
@@ -373,7 +376,7 @@ header article {
 .block-three-section-top {
   max-width: 350px;
   max-height: 323px;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
 }
 
 .block-three-section-bottom {
