@@ -339,6 +339,7 @@ header article {
 .back-white {
   display: block;
   text-decoration: none;
+  background-color: var(--light-color);
 }
 
 .back-white p {
