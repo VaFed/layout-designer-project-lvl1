@@ -27,6 +27,10 @@
   color: var(--basic-color);
 }
 
+.orange_padding{
+  padding: 6px 0 0 0;
+}
+
 .header-color {
   background-color: var(--light-color);
 }
