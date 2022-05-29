@@ -381,10 +381,18 @@ header article {
   height: 348px;
 }
 
-.block-three h2,
-.block-three h3,
+.block-three h2 {
+  margin-left: 24px;
+  font-weight: 400;
+}
+.block-three h3 {
+  margin-left: 24px;
+  font-weight: 400;
+}
+
 .block-three p {
   margin-left: 24px;
+  margin-right: 24px;
   font-weight: 400;
 }
 
